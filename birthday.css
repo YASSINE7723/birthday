@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(banniere-mariage-theme-nuit-etoilee.jpg);
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.informations {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+#explication {
+    display: none;
+}
+
+.inscription {
+    text-align: center;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+#Welcome{
+    font-size:30px;
+    color:#3498db;
+    text-align: center;
+}
+a{
+    color:#3498db;
+}
